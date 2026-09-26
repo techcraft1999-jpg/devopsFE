@@ -18,7 +18,14 @@ function App() {
         }).catch((err) => {
           console.log(err)
         })
-      }}>CLick here to call API  {count}</button>
+      }}>CLick here to call API  </button>
+
+      <div style={{
+        backgroundColor : "whitesmoke",
+        border : "2px solid black"
+      }}>
+        {count}
+      </div>
 
     </>
   )
