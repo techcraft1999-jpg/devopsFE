@@ -20,12 +20,12 @@ function App() {
         })
       }}>CLick here to call API  </button>
 
-      <div style={{
+     {count.length && <div style={{
         backgroundColor : "whitesmoke",
         border : "2px solid black"
       }}>
         {count}
-      </div>
+      </div>}
 
     </>
   )
