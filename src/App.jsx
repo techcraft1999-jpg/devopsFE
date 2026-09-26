@@ -10,7 +10,9 @@ function App() {
         display: "flex",
         height: "50px",
         color: "white",
-        backgroundColor: "black"
+        backgroundColor: "black",
+        justifyContent: "center",
+        alignItems : "center"
       }}>Welcome to my site</div>
       <button onClick={() => {
         axios.get('https://devopsbe-zipz.onrender.com/sayHello').then((res) => {
