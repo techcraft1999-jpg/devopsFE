@@ -14,7 +14,7 @@ function App() {
       }}>Welcome to my site</div>
       <button onClick={() => {
         axios.get('https://devopsbe-zipz.onrender.com/sayHello').then((res) => {
-          setCount(res.data)
+          setCount(res.data.msg)
         }).catch((err) => {
           console.log(err)
         })
